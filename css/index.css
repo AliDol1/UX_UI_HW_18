@@ -3,15 +3,24 @@
     vertical-align: top;
 }
 
+.header {
+    padding: 0;
+    background: #e2e2e2;
+}
+
 .logo {
     width: 2%;
     padding: 1%;
     font-family: 'Avenir', sans-serif;
+    display: block; 
+    margin: 0 auto; 
+    
 }
 
 nav {
     width: 73%;
     padding: 1%;
+
 }
 
 ul {
