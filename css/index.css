@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-    width: 25%;
+    width: 4%;
     padding: 1%;
     text-align: center;
 }
@@ -36,6 +36,7 @@ header {
     font-family: 'Avenir', sans-serif;
     font-size: 36px;
 }
+
 .h1 {
     color: #000;
     font-family: 'Avenir', sans-serif;
@@ -44,6 +45,7 @@ header {
     font-weight: 900;
     line-height: 36px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .h2 { 
@@ -111,8 +113,37 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     grid-template-columns: 1fr repeat(10, 1fr) 1fr;
-    grid-template-rows: auto auto; /* Add this line */
+    grid-template-rows: auto auto; 
 }
+.card4 {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr repeat(10, 1fr) 1fr;
+    grid-template-rows: auto auto; 
+}
+.card5 {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr repeat(10, 1fr) 1fr;
+    grid-template-rows: auto auto; 
+}
+.card6 {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr repeat(10, 1fr) 1fr;
+    grid-template-rows: auto auto; 
+}
+.card7 {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr repeat(10, 1fr) 1fr;
+    grid-template-rows: auto auto; 
+}
+
 .card-image-left {
     grid-column: 2 / span 6;
     grid-row: 1; /* Add this line */
@@ -159,6 +190,34 @@ header {
     padding: 1px 0;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+}
+.card-container2 {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.card_sk {
+    width: 500px;
+    height: 500px;
+    margin: 0 100px; 
+    margin-top: 60px;
+    background-color: #506501; 
+    font-family: 'Avenir', sans-serif; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 .graphic-button {
     font-family: 'Avenir', sans-serif;
 }
@@ -173,10 +232,15 @@ footer {
     padding: 20px; 
 }
 
+.footer-content{
+    font-family: 'Avenir', sans-serif; 
+    color: white;
+}
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px; 
+    color: white;
 }
 
 .footer-logo {
